@@ -10,7 +10,44 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+ <header role="banner">
+    <h1 role="heading" aria-level="1">My Portfolio</h1>
+    <nav role="navigation">
+      <ul role="list">
+        <li role="listitem"><a href="#">Home</a></li>
+        <li role="listitem"><a href="#">Projects</a></li>
+        <li role="listitem"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section>
+      <h2 role="heading" aria-level="2">About Me</h2>
+      <img src="profile.jpg" alt="Profile Picture" role="img">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac metus lectus.</p>
+    </section>
+
+    <section>
+      <h2 role="heading" aria-level="2">Projects</h2>
+      <ul role="list">
+        <li role="listitem">Project 1</li>
+        <li role="listitem">Project 2</li>
+        <li role="listitem">Project 3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 role="heading" aria-level="2">Contact</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" aria-label="Name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" aria-label="Email">
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
 </body>
 
 </html>
